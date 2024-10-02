@@ -1,0 +1,40 @@
+.header{
+    background-color: white;
+    display: flex;
+    padding-left: 25px;
+    padding: 10px;
+position: relative;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.display-btn{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 5px;
+    padding-block: 5px;
+    gap: 2px;
+    
+}
+
+.display-container{
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    background-color: whitesmoke;
+    padding-inline: 30px ;
+    padding-block: 40px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.display-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: space-between;
+}
